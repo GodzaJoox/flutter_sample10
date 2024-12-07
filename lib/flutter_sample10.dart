@@ -44,11 +44,11 @@ class sample extends StatelessWidget {
               width: 300,
               alignment: Alignment.center,
               decoration: BoxDecoration(
-                  color: Colors.blueAccent,
+                  color: const Color.fromARGB(255, 255, 212, 212),
                   border: Border.all(
-                    color: Colors.transparent,
+                    color: const Color.fromARGB(255, 255, 0, 0),
                     style: BorderStyle.solid,
-                    width: 5,
+                    width: 30,
                   ),
                   shape: BoxShape.circle,
               ),
